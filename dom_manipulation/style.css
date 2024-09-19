@@ -1,0 +1,47 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.sort-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.graph-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+}
+
+.bar {
+    background-color: #4caf50;
+    margin: 10px 0;
+    color: white;
+    padding: 10px;
+    text-align: right;
+}
+
+.rating-bar {
+    background-color: #f39c12;
+}
